@@ -1,0 +1,16 @@
+{
+  "short_name": "Rambler Swap",
+  "name": "Rambler Swap",
+  "description": "Farm Rambler with LP Tokens",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
