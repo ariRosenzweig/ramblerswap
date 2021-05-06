@@ -18,3 +18,6 @@ To run the application.
 
 
 This app is licensed under the Mit license. Any uses of the software is permitted as long as attribution is given.
+
+Slides:
+https://docs.google.com/presentation/d/1PpyuOIcetVK0HUEUH6EBR71_juHn2mmWl3SmMl7T6Xg/edit?usp=sharing
