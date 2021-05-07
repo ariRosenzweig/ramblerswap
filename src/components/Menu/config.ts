@@ -7,16 +7,16 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'Trade',
+    label: 'Currency Swap',
     icon: 'TradeIcon',
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.veganswap.finance/',
+        href: 'https://exchange.pancakeswap.finance/#/swap/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.veganswap.finance/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
@@ -46,46 +46,42 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
-    label: 'Price Chart',
+    label: 'Stats',
     icon: 'ChartIcon',
     href: '/chart',
   },
   {
-    label: 'Audits',
+    label: 'Campus Organziations',
     icon: 'AuditIcon',
     items: [
       {
-        label: 'Techrate',
-        href: 'https://veganswap.finance/files/techrateAudit.pdf',
+        label: 'Clubs',
+        href: 'https://luc.campuslabs.com/engage/organizations',
       },
     ],
   },
   {
-    label: 'Our Partners',
+    label: 'Campus Services',
     icon: 'GroupsIcon',
     items: [
       {
-        label: 'Whirl Finance',
-        href: 'https://www.whirl-finance.com/',
+        label: 'Food and Transportation',
+        href: 'https://luc.campusdish.com/LocationsAndMenus',
       },
       {
-        label: 'FlashX Ultra',
-        href: 'https://www.flashxcoinofficial.com/'
+        label: 'Printing',
+        href: 'http://libraries.luc.edu/printing'
       }
     ],
   },
   {
-    label: 'Listings',
+    label: 'Community Voting',
     icon: 'ListingIcon',
     items: [
       {
-        label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/vegan-swap',
-      },
-      {
-        label: 'Blockfolio',
-        href: 'https://blockfolio.com/coin/VEGAN',
-      },
+        label: 'Vote',
+        href: 'https://www.luc.edu',
+      }
     ],
   },
   {
@@ -94,11 +90,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Roadmap',
-        href: 'https://vegandefi.medium.com/vegan-swap-roadmap-94d69f7653b',
+        href: 'https://www.luc.edu',
       },
       {
         label: 'Overview',
-        href: 'https://pancakeswap.info/token/0x901e58695306b5c33c5169334e921a4cf4841571',
+        href: 'https://pancakeswap.info/token/0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
       },
       // {
       //   label: 'CoinGecko',
@@ -120,7 +116,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/veganswap-defi/',
+        href: 'https://github.com/ariRosenzweig/ramblerswap',
       },
       // {
       //   label: 'Docs',
@@ -128,7 +124,7 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Blog',
-        href: 'https://vegandefi.medium.com/',
+        href: 'https://ramblerswap.medium.com/',
       },
     ],
   },

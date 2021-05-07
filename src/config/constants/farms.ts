@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'VEGAN-BUSD LP',
+    lpSymbol: 'Rambler-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x5756a2e1af72EFCF11674Ca07d89aD8239e98263',
+      56: '0x61a8d40d374fcb30841ad472751fb6bb19e5a844',
     },
-    tokenSymbol: 'VEGAN',
+    tokenSymbol: 'Rambler',
     tokenAddresses: {
       97: '',
-      56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+      56: '0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'VEGAN-BNB LP',
+    lpSymbol: 'Rambler-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x573063c62b6fa86e60fa275ba0d24fdddf820353',
     },
-    tokenSymbol: 'VEGAN',
+    tokenSymbol: 'Rambler',
     tokenAddresses: {
       97: '',
-      56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+      56: '0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
   {
     pid: 14,
     risk: 3,
-    lpSymbol: 'VEGAN-BIFI LP',
+    lpSymbol: 'Rambler-BIFI LP',
     lpAddresses: {
       97: '',
       56: '0x4c132Eea7a2333D00d663Bf2127B87D0EF306397',
@@ -45,7 +45,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'WHIRL',
     tokenAddresses: {
       97: '',
-      56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+      56: '0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
@@ -53,15 +53,15 @@ const farms: FarmConfig[] = [
   {
     pid: 12,
     risk: 5,
-    lpSymbol: 'VEGAN-WHIRL LP',
+    lpSymbol: 'Rambler-WHIRL LP',
     lpAddresses: {
       97: '',
       56: '0x60468BEFC260534B962B8A2a2F7cF84f16789965',
     },
-    tokenSymbol: 'VEGAN',
+    tokenSymbol: 'Rambler',
     tokenAddresses: {
       97: '',
-      56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+      56: '0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
@@ -117,15 +117,15 @@ const farms: FarmConfig[] = [
   {
     pid: 6,
     risk: 3,
-    lpSymbol: 'VEGAN-CAKE LP',
+    lpSymbol: 'Rambler-CAKE LP',
     lpAddresses: {
       97: '',
       56: '0x199C917CB3daf0e74cD9466d02b8Bcc1aA03f755',
     },
-    tokenSymbol: 'VEGAN',
+    tokenSymbol: 'Rambler',
     tokenAddresses: {
       97: '',
-      56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+      56: '0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
@@ -133,15 +133,15 @@ const farms: FarmConfig[] = [
   // {
   //   pid: 9,
   //   risk: 5,
-  //   lpSymbol: 'VEGAN-ETH LP',
+  //   lpSymbol: 'Rambler-ETH LP',
   //   lpAddresses: {
   //     97: '',
   //     56: '0xe29f7B147058b29A5e177C0A4EcB56e124eaBbF4',
   //   },
-  //   tokenSymbol: 'VEGAN',
+  //   tokenSymbol: 'Rambler',
   //   tokenAddresses: {
   //     97: '',
-  //     56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+  //     56: '0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
   //   },
   //   quoteTokenSymbol: QuoteToken.ETH,
   //   quoteTokenAdresses: contracts.eth,
@@ -278,15 +278,15 @@ const farms: FarmConfig[] = [
     pid: 3,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'VEGAN',
+    lpSymbol: 'Rambler',
     lpAddresses: {
       97: '',
-      56: '0x5756a2e1af72EFCF11674Ca07d89aD8239e98263', // VEGAN-BUSD LP
+      56: '0x61a8d40d374fcb30841ad472751fb6bb19e5a844', // Rambler-BUSD LP
     },
-    tokenSymbol: 'VEGAN',
+    tokenSymbol: 'Rambler',
     tokenAddresses: {
       97: '',
-      56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+      56: '0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -315,7 +315,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x5756a2e1af72EFCF11674Ca07d89aD8239e98263', // VEGAN-BUSD LP
+      56: '0x61a8d40d374fcb30841ad472751fb6bb19e5a844', // Rambler-BUSD LP
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
@@ -349,7 +349,7 @@ const farms: FarmConfig[] = [
   //   lpSymbol: 'BUSD',
   //   lpAddresses: {
   //     97: '',
-  //     56: '0x5756a2e1af72EFCF11674Ca07d89aD8239e98263', // VEGAN-BUSD LP (BUSD-BUSD will ignore)
+  //     56: '0x61a8d40d374fcb30841ad472751fb6bb19e5a844', // Rambler-BUSD LP (BUSD-BUSD will ignore)
   //   },
   //   tokenSymbol: 'BUSD',
   //   tokenAddresses: {

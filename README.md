@@ -15,11 +15,6 @@ To run the application.
 
 5) to serve the app locally enter   yarn global add serve and then serve -s build
 
-6) To run an automated suite of unit tests, simply run npm run test
 
 
 This app is licensed under the Mit license. Any uses of the software is permitted as long as attribution is given.
-
-Slides:
-https://docs.google.com/presentation/d/1PpyuOIcetVK0HUEUH6EBR71_juHn2mmWl3SmMl7T6Xg/edit?usp=sharing
-Contract: https://bscscan.com/token/0x3d05B51f98Bb6ba5B762939995A1e537417F5983
