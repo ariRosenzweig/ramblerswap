@@ -48,7 +48,7 @@ const config: MenuEntry[] = [
   {
     label: 'Stats',
     icon: 'ChartIcon',
-    href: '/chart',
+    href: 'https://bscscan.com/token/0x3d05B51f98Bb6ba5B762939995A1e537417F5983',
   },
   {
     label: 'Campus Organziations',
